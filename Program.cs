@@ -14,7 +14,7 @@ namespace DBTesting
         static void Main(string[] args)
         {
             RunMain();
-            Console.WriteLine("Complete...");
+            Console.WriteLine("Test...");
             Console.ReadLine();
         }
 
@@ -38,7 +38,7 @@ namespace DBTesting
                 case "4":
                     Serialize();
                     break;
-                case "99":
+                case "100":
                     Sproc();
                     Selects();
                     Entity();
