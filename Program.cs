@@ -14,7 +14,7 @@ namespace DBTesting
         static void Main(string[] args)
         {
             RunMain();
-            Console.WriteLine("Done...");
+            Console.WriteLine("Complete...");
             Console.ReadLine();
         }
 
